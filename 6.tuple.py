@@ -1,0 +1,13 @@
+nations=("india","united nations ","china","russia","germany","france","japan","brazil","united kingdom","Australia","sri lanka","india")
+
+boxes=(100,True,1.25,"bhavnagar",None)
+print(nations)
+print(nations[0])
+print(nations[1:4])
+print(nations[5:1])
+print("position of russia",nations.index("russia"))
+print("count of india",nations.count("india"))
+print("count of finland",nations.count("finland"))
+print(nations*2)
+print("good bye")
+print(nations+boxes)
